@@ -249,6 +249,15 @@ input,textarea{
 }
 
 @media(max-width: 767px){
+	.content{
+		background-image: url(../img/background2mobile.jpg)!important;
+	}
+	.content_progress{
+		background-image: url(../img/backgroundbarmobile.jpg)!important;
+	}
+	.content_text{
+	padding-top: 75px!important;
+	}
 	.header_burger{
 		display: block;
 		position: relative;
@@ -343,7 +352,7 @@ input,textarea{
 		height: 60px;
 	}
 	.content{
-		height:700px!important;
+		height:90vh!important;
 	}
 	.blockbox_container{
 		margin-top: 10px!important;
