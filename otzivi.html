@@ -8,6 +8,10 @@
 	<meta name="Description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="img/favicon.png" rel="shortcut icon" type='image/png'>
+  <style>
+    .header:before
+    {background: rgba(0, 0, 0, 0.95);}
+  </style>
 </head>
 <body>
   <div id='wrapper'>
@@ -22,8 +26,8 @@
           </div>
           <nav class="header_menu">
             <ul class="header_list">
-              <li><a href="#about" class="header_link">О нас</a></li>
-              <li><a href="#delivery" class="header_link">Доставка</a></li>
+              <li><a href="index.html#about" class="header_link">О нас</a></li>
+              <li><a href="index.html#delivery" class="header_link">Доставка</a></li>
               <li><a href="otzivi.html" class="header_link">Отзывы</a></li>
               <li><a href="#popup1" class='header_button'>ОСТАВИТЬ ЗАЯВКУ</a></li>
             </ul>
@@ -31,186 +35,23 @@
         </div>    
       </div>
     </header>
-    <div class='content'>
-      <div class="container">
-        <div class="content_text">
-          <h1>НАЗВАНИЕ</h1>
-          <h2>Vestibulum at lectus at tortor ullamcorper vestibulum. Aenean sit amet lacus at ipsum fermentum molestie.</h2>
-        </div>
-      </div>
-    </div>
     <section class='main_content1'>
-      <div class="container">
-        <div id="about"></div>
-        <div class="about_container">
-          <div class="about_us">
-            <h3 class=about_us_title>Компания "Название"</h3>
-            <p class="about_us_paragraph">Duis sit amet nulla sed velit mollis ultrices id luctus ex. Praesent hendrerit ultrices tincidunt. Nam facilisis non metus sed tempus. Nullam dictum nisl lacus, ac tempus lectus dapibus ac</p>
-            <p class="about_us_paragraph"> Aliquam tristique molestie mi, ac sodales sapien luctus ut. In ut velit viverra, varius diam in, gravida ante. Vestibulum hendrerit arcu in nunc placerat luctus. Sed feugiat mi at interdum maximus.</p>
-            <div class="button_phone">
-              <a href="#popup1" class="header_button1">ОСТАВИТЬ ЗАЯВКУ</a>
-              <div class="phone">
-                <h4>Или позвоните по телефону</h4>
-                <span>+7 (900) 000-00-00</span>
-              </div>
-            </div>
+      <div id="review_container" class="container">
+        <h1>Отзывы о нас</h1>
+        <div class="review">
+          <div class="review_body" data-aos="flip-up">
+            <div class="review_name"><span>Иванов А.И</span></div>
+            <div class="review_text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia cum natus, minus porro sit ab autem eius deserunt neque veritatis quia sequi reprehenderit accusantium recusandae ipsam modi, corporis laboriosam soluta.</p></div>
           </div>
-          <div class="about_us">
-            <div class="about_us_item"><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </span></div>
-            <div class="about_us_item"><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span></div>
-            <div class="about_us_item"><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span></div>
-            <div class="about_us_item"><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span></div>
+          <div class="review_body" data-aos="flip-up">
+            <div class="review_name"><span>Иванов А.И</span></div>
+            <div class="review_text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia cum natus, minus porro sit ab autem eius deserunt neque veritatis quia sequi reprehenderit accusantium recusandae ipsam modi, corporis laboriosam soluta.</p></div>
           </div>
-        </div> 
+
+        </div>
       </div>
     </section>
-    </div>
-    <div class="our_team">
-      <div class="container">
-        <h3 class='title2'>Оборудование</h3>
-        <div class="tab1">
-          <ul>
-          <li><button class="tablinks1" onclick="openCity1(event, 'team1')" id="defaultopen1">Телевизоры</button></li>
-          <li><button class="tablinks1" onclick="openCity1(event, 'team2')">Колонки</button></li>
-          <li><button class="tablinks1" onclick="openCity1(event, 'team3')">Микрофоны</button></li>
-        </ul>
-        </div>
-        <div id="team1" class="tabcontent1">
-          <div class="stuff_box">
-           <div class="stuff">
-            <a href="xiaomi4k.html">
-              <div class="stuff_img"><img src='img/portrait.jpg' class="round"></div>
-              <div class="stuff_name">Телевизор Sharp Aquas1</div>
-              </a>
-            </div>
-            <div class="stuff">
-                <a href="">
-              <div class="stuff_img"><img src='img/portrait.jpg' class="round"></div>
-              <div class="stuff_name">Телевизор Sharp Aquas2</div>
-              </a>
-            </div>
-            <div class="stuff">
-                <a href="">
-              <div class="stuff_img"><img src='img/portrait.jpg' class="round"></div>
-              <div class="stuff_name">Телевизор Sharp Aquas3</div>
-              </a>
-            </div>
-            <div class="stuff">
-                <a href="">
-              <div class="stuff_img"><img src='img/portrait.jpg' class="round"></div>
-              <div class="stuff_name">Телевизор Sharp Aquas4</div>
-              </a>
-            </div>
-
-          </div>
-        </div>
-        <div id="team2" class="tabcontent1">
-          <div class="stuff_box">
-            <div class="stuff">
-                <a href="">
-              <div class="stuff_img"><img src='img/portrait.jpg' class="round"></div>
-              <div class="stuff_name">Колонки JBL 1000X</div>
-              </a>
-            </div>
-            <div class="stuff">
-                <a href="">
-              <div class="stuff_img"><img src='img/portrait.jpg' class="round"></div>
-              <div class="stuff_name">Колонки JBL 1000XS</div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div id="team3" class="tabcontent1">
-          <div class="stuff_box">
-            <div class="stuff">
-               <a href="">
-              <div class="stuff_img"><img src='img/portrait.jpg' class="round"></div>
-              <div class="stuff_name">Микрофон Sennheiser 20px</div>
-              </a>
-            </div>
-            <div class="stuff">
-                <a href="">
-              <div class="stuff_img"><img src='img/portrait.jpg' class="round"></div>
-              <div class="stuff_name">Микрофон Sennheiser 230x</div>
-              </a>
-            </div>
-            <div class="stuff">
-                <a href="">
-              <div class="stuff_img"><img src='img/portrait.jpg' class="round"></div>
-              <div class="stuff_name">Микрофон Sennheiser 240x</div>
-              </a>
-            </div>
-            <div class="stuff">
-                <a href="">
-              <div class="stuff_img"><img src='img/portrait.jpg' class="round"></div>
-              <div class="stuff_name">Микрофон Shure SN7B</div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div id="team4" class="tabcontent1">
-          <div class="stuff_box">
-            <div class="stuff">
-                <a href="">
-              <div class="stuff_img"><img src='img/portrait.jpg' class="round"></div>
-              <div class="stuff_name">Блинкова Маргарита</div>
-              </a>
-            </div>
-            <div class="stuff">
-                <a href="">
-              <div class="stuff_img"><img src='img/portrait.jpg' class="round"></div>
-              <div class="stuff_name">Блинкова Маргарита</div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-      <script>
-        function openCity1(evt, cityName1) {
-    // Declare all variables
-    var i, tabcontent1, tablinks1;
-
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent1 = document.getElementsByClassName("tabcontent1");
-    for (i = 0; i < tabcontent1.length; i++) {
-        tabcontent1[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks1 = document.getElementsByClassName("tablinks1");
-    for (i = 0; i < tablinks1.length; i++) {
-        tablinks1[i].className = tablinks1[i].className.replace(" active", "");
-    }
-
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName1).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-     document.getElementById("defaultopen1").click();
-      </script>
-      <div id="delivery"></div>
-    <div class="contact_map">
-      <h3>ДОСТАВКА</h3>
-      <div class="container">
-        <div class="contact2">
-          <h2>Доставляем быстро</h2>
-          <div class="phone2">
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci soluta ipsa, nostrum omnis magnam! </span>
-          </div>
-          <div class="adress">
-            <span>Условия доставки</span>
-            <p>В пределах Екатеринбурга доставка осуществляется бесплатно</p>
-            <p>С выездом за границу Екатеринбурга в пределах <span id="km10">10 км</span> доставка стоит 500р</p>
-            <p>С выездом за границу Екатеринбурга в пределах <span id="km20">20 км</span> доставка стоит 1000р</p>
-          </div>
-        </div>
-        <div class="map">
-          <img src="img/background_map.JPG">
-        </div>
-      </div>
-    </div>
-    <footer class='container'>
+        <footer class='container'>
           <div class='footer_first'>
             <div class="footer_first_span">
               <span >ARENDAY</span>
@@ -278,6 +119,10 @@
                     <div class="form__item">
                       <label for="formNumber" class="form__label">Номер телефона</label>
                       <input id="formNumber" type="tel" name="phonenumber" class="form__input _req" placeholder="+79000000000">
+                    </div>
+                    <div class="form__item">
+                      <label for="formMessage" class="form__label">Сообщение</label>
+                      <textarea name="message" id="formMessage" class="form__input" placeholder="Напишите, какое оборудование хотите взять в аренду"></textarea>
                     </div>
                     <div class="form__item">
                       <span>ВЫБЕРИТЕ АРЕНДУЕМОЕ ОБОРУДОВАНИЕ</span>
@@ -421,9 +266,9 @@
         </script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/0ec4a33e05.js"></script><!--FontAwesome-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src='js/AOSanimation.js'></script>
-    <script src="https://use.fontawesome.com/0ec4a33e05.js"></script><!--FontAwesome-->
     <script src="js/script.js"></script>
     <script src="js/formscript.js"></script>
 </body>
